@@ -1,0 +1,111 @@
+body{
+ background:#adb6bb;
+ font-family: 'Baloo Paaji', cursive;
+
+}
+#top{
+  brder: solid 1px black;
+width:100%;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+#top h1{
+    color:#482714;
+    font-size:50px;
+}
+
+
+.containertop{
+    order:1px solid black;
+    width: 1200px;
+    height:200px;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.containerbottom{
+    brder:1px solid black;
+    width: 1200px;
+    height:200px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#areaCode{
+height:40px;
+width:500px;
+font-size: 30px;
+
+}
+
+#findout{
+    brder:1px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    margin-left:50px;
+    width:80px;
+    height:40px;
+    background:#81ac50;;
+    color:#482714;
+    border-radius: 8px;
+
+    }
+
+
+#findout:hover{
+cursor:pointer;
+background:#66883f;;
+
+}
+
+#demo{
+    font-size:50px;
+    color:#482714;
+}
+
+img{
+    height:150px;
+    width:200px;
+    
+
+    
+    }
+    
+    .palmsquare{
+    background:white;
+    height:180px;
+    width:200px;
+    border-radius:5px;
+   
+    
+    border-ottom:solid 10px #80898d;;
+    
+    }
+    
+    .titlesquare{
+        border-bottom: 1px solid rgba(8, 8, 8, 0.2);
+        width:100%;
+        height:30px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+     
+    }
+
+    .photocontainer{
+        order:1px solid black;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height:80%;
+    }
