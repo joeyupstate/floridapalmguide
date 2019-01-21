@@ -18,24 +18,26 @@ align-items: center;
 
 .containertop{
     order:1px solid black;
-    width: 1200px;
-    height:200px;
+    wdth: 1200px;
+    hight:200px;
     display:flex;
     flex-direction:row;
     justify-content: center;
     align-items: center;
+    margin-left:90px;
 
 
 }
 
 .containerbottom{
     order:1px solid black;
-    width: 1200px;
+    wdth: 1200px;
     height:200px;
     display:flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
+    margin-top:25px;
 
 }
 
@@ -90,8 +92,8 @@ background:#66883f;;
     #top{
         margin-top:200px;
         text-align: center;
-        order:1px solid black;
-        margin-left:110px;
+        brder:1px solid black;
+        margin-left:60px;
 
     }
     #top h1{
@@ -100,8 +102,7 @@ background:#66883f;;
 
     .containertop{
         order:1px solid black;
-        width: 1200px;
-        height:200px;
+        
         display:flex;
         flex-direction:row;
         justify-content: center;
@@ -111,13 +112,13 @@ background:#66883f;;
     
     }
     .containerbottom{
-        boder:1px solid black;
-        width: 1200px;
-        height:200px;
+        order:1px solid black;
+        
         display:flex;
         flex-direction:column;
         justify-content: center;
         align-items: center;
+        margin-left:50px;
     
     }
     
@@ -129,7 +130,7 @@ background:#66883f;;
     }
     
     #findout{
-        boder:1px solid black;
+        order:1px solid black;
         display:flex;
         justify-content: center;
         align-items: center;
