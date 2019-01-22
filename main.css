@@ -83,6 +83,11 @@ background:#66883f;;
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
+      select,
+      textarea,
+      input{
+          font-size:16px;
+      }
 
     body{
         background:#adb6bb;
