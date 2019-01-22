@@ -1,7 +1,10 @@
 body{
  background:#adb6bb;
  font-family: 'Baloo Paaji', cursive;
-
+display:flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
 }
 #top{
   brder: solid 1px black;
@@ -18,13 +21,11 @@ align-items: center;
 
 .containertop{
     order:1px solid black;
-    wdth: 1200px;
-    hight:200px;
     display:flex;
     flex-direction:row;
     justify-content: center;
     align-items: center;
-    margin-left:90px;
+
 
 
 }
@@ -55,7 +56,7 @@ font-size: 30px;
     align-items: center;
     padding:5px;
     margin-left:50px;
-    width:80px;
+    width:60px;
     height:40px;
     background:#81ac50;;
     color:#482714;
@@ -97,8 +98,8 @@ background:#66883f;;
     #top{
         
         text-align: center;
-        brder:1px solid black;
-        margin-left:30px;
+        border:1px solid black;
+
 
     }
     #top h1{
@@ -106,18 +107,19 @@ background:#66883f;;
     }
 
     .containertop{
-        order:1px solid black;
+        border:1px solid black;
         
         display:flex;
         flex-direction:row;
         justify-content: center;
         align-items: center;
-        margin-top:50px;
+        margin-top:30px;
+       
     
     
     }
     .containerbottom{
-        order:1px solid black;
+        border:1px solid black;
         
         display:flex;
         flex-direction:column;
@@ -131,18 +133,19 @@ background:#66883f;;
     height:30px;
     width:200px;
     font-size: 30px;
+    border-radius:5px;
     
     }
     
     #findout{
-        order:1px solid black;
+        border:1px solid black;
         display:flex;
         justify-content: center;
         align-items: center;
         padding:5px;
-        margin-left:50px;
-        width:90px;
-        height:30px;
+        margin-left:30px;
+        width:60px;
+        height:20px;
         background:#81ac50;;
         color:#482714;
         border-radius: 8px;
