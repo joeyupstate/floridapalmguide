@@ -90,10 +90,10 @@ background:#66883f;;
     }
 
     #top{
-        margin-top:200px;
+        
         text-align: center;
         brder:1px solid black;
-        margin-left:60px;
+        margin-left:30px;
 
     }
     #top h1{
@@ -107,7 +107,7 @@ background:#66883f;;
         flex-direction:row;
         justify-content: center;
         align-items: center;
-        margin-top:200px;
+        margin-top:100px;
     
     
     }
