@@ -1,6 +1,17 @@
+
+/*
+font-family: 'Caveat', cursive;
+font-family: 'Neucha', cursive;
+font-family: 'Patrick Hand SC', cursive;
+font-family: 'Walter Turncoat', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Forum', cursive;
+*/
+
+
 body{
- background:#adb6bb;
- font-family: 'Baloo Paaji', cursive;
+ background:#91e9f0;
+ font-family: 'Patrick Hand SC', cursive;
 display:flex;
 flex-direction:column;
 justify-content: center;
@@ -22,7 +33,7 @@ align-items: center;
 .containertop{
     order:1px solid black;
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     justify-content: center;
     align-items: center;
 
@@ -32,7 +43,6 @@ align-items: center;
 
 .containerbottom{
     order:1px solid black;
-    wdth: 1200px;
     height:200px;
     display:flex;
     flex-direction:column;
@@ -55,10 +65,9 @@ font-size: 30px;
     justify-content: center;
     align-items: center;
     padding:5px;
-    margin-left:50px;
     width:60px;
     height:40px;
-    background:#81ac50;;
+    background:#cde9ad;
     color:#482714;
     border-radius: 8px;
 
@@ -77,7 +86,25 @@ background:#66883f;;
 }
 
 
+
+
+#blurb{
+    width:150px;
+    height:200px;
+    color:#482714;
+    order:1px solid black;
+    font-size:12px;
     
+}
+
+
+.line{
+   width:200px;
+    background:#482714; 
+    border:0.5px solid #482714; 
+   border-radius:10px;
+}
+
  
 
     @media only screen 
@@ -91,8 +118,8 @@ background:#66883f;;
       }
 
     body{
-        background:#adb6bb;
-     font-family: 'Baloo Paaji', cursive;
+        background:#91e9f0;
+        font-family: 'Coiny', cursive;
     }
 
     #top{
@@ -107,10 +134,10 @@ background:#66883f;;
     }
 
     .containertop{
-        order:1px solid black;
+        brder:1px solid black;
         
         display:flex;
-        flex-direction:row;
+        flex-direction:column;
         justify-content: center;
         align-items: center;
         margin-top:30px;
@@ -125,7 +152,7 @@ background:#66883f;;
         flex-direction:column;
         justify-content: center;
         align-items: center;
-        margin-left:50px;
+
     
     }
     
@@ -143,10 +170,9 @@ background:#66883f;;
         justify-content: center;
         align-items: center;
         padding:5px;
-        margin-left:30px;
         width:60px;
         height:20px;
-        background:#81ac50;;
+        background:#7ee608;;
         color:#482714;
         border-radius: 8px;
     
