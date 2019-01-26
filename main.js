@@ -58,5 +58,8 @@ function doit_onkeypress(event){
 }
 document.getElementById("findout").addEventListener("click", myf(), true);
 
-
+function dick(){
+    document.getElementById("demo").style.display="none";
+    document.getElementById("sabal").style.display="flex";
+}
 
