@@ -27,23 +27,36 @@ let c8a=["BELL","FANNING SPRINGS","SPRING RIDGE CDP","TRENTON","PERRY","STEINHAT
 
 let c8acities=["32008","32619","32643","32669","32693","32331" ,"32336","32348”, “32359”,”32008”,”32066”,”32052”,”32053”,”32096”,” 32040","32063","32087","32234”,”32024","32025","32038","32055","32061","32094","32096","32643”,”32054”,”32058”,”32083”,” 32531","32561","32563","32564","32565","32566","32570","32571","32583”,” 32439","32531","32536","32539","32541","32542","32544","32547","32548","32550","32564","32567","32569","32578","32579","32580”,”32420","32423","32426","32428","32431","32438","32440","32442","32443","32445","32446","32448","32460,”32433","32435","32439","32455","32459","32461","32462","32464","32539","32550","32567","32578”,” 32421","32424","32430","32442","32449","32466”,”32321”,”32334”,” 32425","32440","32455","32464”, 32420","32425","32427","32428","32431","32437","32438","32462","32466”,” 32324","32332","32333","32343","32351","32352","39819” 32301","32303","32304","32305","32308","32309","32310","32311","32312","32317","32344”,”32331","32336","32344"]
 
+let zone10btitle="Zone 10b";
+let zone10blink =zone10btitle.link("zone10b.html");
+let zone10atitle="Zone 10a";
+let zone10alink=zone10atitle.link("zones/zone10a.html");
+let zone9btitle="Zone 9b";
+let zone9blink =zone9btitle.link("zone9b.html");
+let zone9atitle="Zone 9a";
+let zone9alink=zone10atitle.link("zone9a.html");
+let zone8atitle="Zone 8a";
+let zone8alink =zone8atitle.link("zone8a.html");
+
+
+
 /* here is the code */
 let firstcodevalue=document.getElementById("areaCode").value;
 let acodevalue=firstcodevalue.toUpperCase();
 if(c10b.includes(acodevalue)==true || c10bcities.includes(acodevalue)==true){
-    document.getElementById("demo").innerHTML="Zone 10b";
+    document.getElementById("demo").innerHTML=zone10blink;
 }
 if (c10a.includes(acodevalue)==true || c10acities.includes(acodevalue)==true){
-    document.getElementById("demo").innerHTML="Zone 10a";
+    document.getElementById("demo").innerHTML=zone10alink;
 }
 if (c9b.includes(acodevalue)==true || c9bcities.includes(acodevalue)==true){
-    document.getElementById("demo").innerHTML="Zone 9b";
+    document.getElementById("demo").innerHTML=zone9blink;
 }
 if (c9a.includes(acodevalue)==true || c9acities.includes(acodevalue)==true){
-    document.getElementById("demo").innerHTML="Zone 9a";
+    document.getElementById("demo").innerHTML=zone9alink;
 }
 if (c8a.includes(acodevalue)==true || c8acities.includes(acodevalue)==true){
-    document.getElementById("demo").innerHTML="Zone 8a";
+    document.getElementById("demo").innerHTML=zone8alink;
 }
 
 }
@@ -58,8 +71,4 @@ function doit_onkeypress(event){
 }
 document.getElementById("findout").addEventListener("click", myf(), true);
 
-function dick(){
-    document.getElementById("demo").style.display="none";
-    document.getElementById("sabal").style.display="flex";
-}
-
+    
