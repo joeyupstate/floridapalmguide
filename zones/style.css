@@ -7,7 +7,7 @@ margin:0 auto;
 }
 
 .photo{
-	border:solid 1px black;
+	
 	display:flex;
 	justify-content: center;
 	align-items: center;
@@ -28,7 +28,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 		width:300px;
 		margin:0 auto;
 		
-		border:1px solid black;
+	
 		
 		justify-content: center;
 		align-items:center;
@@ -37,13 +37,13 @@ and (-webkit-min-device-pixel-ratio: 2) {
 		}
 		
 		img{
-		width:100px;
-		height:100px;
+		width:350px;
+		height:350px;
 		}
 
 		.photo{
 			
-			border:solid 1px  black;
+			
 			display:flex;
 			justify-content: center;
 			align-items: center;
