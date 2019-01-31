@@ -23,9 +23,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
 	input{
 		font-size:16px;
 	}
-
 	#wrapper{
-		width:300px;
+		width:375px;
 		margin:0 auto;
 		
 	
@@ -37,8 +36,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 		}
 		
 		img{
-		width:350px;
-		height:350px;
+		width:250px;
+		height:250px;
+		border-radius:5px;
 		}
 
 		.photo{
@@ -48,5 +48,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 			justify-content: center;
 			align-items: center;
 
+		}
+
+		.photo h1{
+			margin:50px;
 		}
 	}		

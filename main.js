@@ -40,6 +40,7 @@ let zone8alink =zone8atitle.link("zones/zone8a.html");
 
 
 
+
 /* here is the code */
 let firstcodevalue=document.getElementById("areaCode").value;
 let acodevalue=firstcodevalue.toUpperCase();
@@ -61,6 +62,7 @@ if (c8a.includes(acodevalue)==true || c8acities.includes(acodevalue)==true){
 
 }
 
+document.getElementById("demo").style.textDecoration = "none";
   
 
 
@@ -69,6 +71,5 @@ function doit_onkeypress(event){
       myf();
     }
 }
-document.getElementById("findout").addEventListener("click", myf(), true);
 
     
