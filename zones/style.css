@@ -1,8 +1,10 @@
-
+#wrapper{
+	display:none;
+}
 	
 img{
-width:500px;
-height:500px;
+width:200px;
+height:200px;
 margin:0 auto;
 }
 
@@ -13,6 +15,15 @@ margin:0 auto;
 	align-items: center;
 }
 
+#desk{
+	width:900px;
+	height:900px;
+	border:1px solid black;
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
 
 @media only screen 
 and (min-device-width: 375px) 
@@ -26,6 +37,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 	#wrapper{
 		width:375px;
 		margin:0 auto;
+		display:flex;
 		
 	
 		
@@ -52,5 +64,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 		.photo h1{
 			margin:50px;
+		}
+
+		#desk{
+			display:none;
 		}
 	}		
