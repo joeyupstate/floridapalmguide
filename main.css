@@ -6,16 +6,19 @@ font-family: 'Patrick Hand SC', cursive;
 font-family: 'Walter Turncoat', cursive;
 font-family: 'Fredericka the Great', cursive;
 font-family: 'Forum', cursive;
+#91e9f0;
 */
 
 
 body{
- background:#91e9f0;
- font-family: 'Patrick Hand SC', cursive;
+ background-image:url("pback.jpg");
+ font-family: 'Coiny', cursive;
 display:flex;
 flex-direction:column;
 justify-content: center;
 align-items: center;
+background-repeat: no-repeat;
+background-size: 1500px 1500px;
 }
 #top{
   brder: solid 1px black;
@@ -25,7 +28,7 @@ justify-content: center;
 align-items: center;
 }
 #top h1{
-    color:#482714;
+    color:#eef1f1;
     font-size:50px;
 }
 
@@ -81,21 +84,24 @@ background:#66883f;;
 }
 
 #demo{
-    font-size:50px;
+    font-size:90px;
     color:#482714;
     display:block;
     text-decoration: none;
 }
 
+#demo:first-child{
+    text-decoration: none;
+}
 
 
 
 #blurb{
     width:150px;
     height:200px;
-    color:#482714;
+    color:#eef1f1;
     order:1px solid black;
-    font-size:12px;
+    font-size:16px;
     
 }
 
@@ -107,11 +113,9 @@ background:#66883f;;
    border-radius:10px;
 }
 
- #sabal{
-     height:200px;
-     width:200px;
-     display:none;
- }
+a{
+    color:green;
+}
 
     @media only screen 
   and (min-device-width: 375px) 
@@ -124,8 +128,9 @@ background:#66883f;;
       }
 
     body{
-        background:#91e9f0;
+        background-image:url("pback.jpg");
         font-family: 'Coiny', cursive;
+        background-size:380px 700px;
     }
 
     #top{

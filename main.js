@@ -34,7 +34,7 @@ let zone10alink=zone10atitle.link("zones/zone10a.html");
 let zone9btitle="Zone 9b";
 let zone9blink =zone9btitle.link("zones/zone9b.html");
 let zone9atitle="Zone 9a";
-let zone9alink=zone10atitle.link("zones/zone9a.html");
+let zone9alink=zone9atitle.link("zones/zone9a.html");
 let zone8atitle="Zone 8a";
 let zone8alink =zone8atitle.link("zones/zone8a.html");
 
