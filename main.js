@@ -46,24 +46,31 @@ let firstcodevalue=document.getElementById("areaCode").value;
 let acodevalue=firstcodevalue.toUpperCase();
 if(c10b.includes(acodevalue)==true || c10bcities.includes(acodevalue)==true){
     document.getElementById("demo").innerHTML=zone10blink;
+    document.getElementById("yourpalm").style.display = "flex";
 }
 if (c10a.includes(acodevalue)==true || c10acities.includes(acodevalue)==true){
     document.getElementById("demo").innerHTML=zone10alink;
+    document.getElementById("yourpalm").style.display = "flex";
 }
 if (c9b.includes(acodevalue)==true || c9bcities.includes(acodevalue)==true){
     document.getElementById("demo").innerHTML=zone9blink;
+    document.getElementById("yourpalm").style.display = "flex";
 }
 if (c9a.includes(acodevalue)==true || c9acities.includes(acodevalue)==true){
     document.getElementById("demo").innerHTML=zone9alink;
+    document.getElementById("yourpalm").style.display = "flex";
 }
 if (c8a.includes(acodevalue)==true || c8acities.includes(acodevalue)==true){
     document.getElementById("demo").innerHTML=zone8alink;
-}
+    document.getElementById("yourpalm").style.display = "flex";
+
 
 }
 
-document.getElementById("demo").style.textDecoration = "none";
-  
+
+}
+
+
 
 
 function doit_onkeypress(event){

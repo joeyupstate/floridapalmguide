@@ -11,7 +11,7 @@
 <style>
     a{
         text-decoration: none;
-        color:#482714;
+        color:#eef1f1;
     }
 </style>
 </head>
@@ -21,7 +21,7 @@
 </div>
 
     <div class="containertop">
-    <input type="input" id="areaCode" onkeypress="javascript:doit_onkeypress(event);"  >
+    <input type="input" id="areaCode" onkeypress="javascript:doit_onkeypress(event);" placeholder="Enter City or Zip" >
     <br>
     <div id="findout" ontouchstart="myf()"onclick="myf()">Find</div>
     
@@ -29,12 +29,13 @@
 
 
 <div class="containerbottom">
-        <p id="demo"></p>
+    <p id="yourpalm">This Palm is located in<span id="demo"></span></p>
+       
        
         
-     <div class="line"></div>
-        <p id="blurb">Type any Florida City or Zip code to find your climate zone.  Click the zone to find palms </p>
-        <div class="line"></div>
+     
+        <!--<p id="blurb">Type any Florida City or Zip code to find your climate zone.  Click the zone to find palms </p>-->
+        
     
         
         
@@ -43,7 +44,7 @@
                 
  
         
-</div>
+
 
 
 
