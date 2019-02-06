@@ -11,12 +11,9 @@ font-family: 'Forum', cursive;
 
 
 body{
- background-image:url("pback.jpg");
+ background-image:url("pback1.jpg");
  font-family: 'Coiny', cursive;
-display:flex;
-flex-direction:column;
-justify-content: center;
-align-items: center;
+
 background-repeat: no-repeat;
 background-size: 100%;
 }
@@ -26,12 +23,52 @@ width:100%;
 display:flex;
 justify-content: center;
 align-items: center;
-margin-top:50px;
+margin-top:100px;
 }
+
+#topnav{
+    display:inline;
+}
+#topnav li{
+    list-style: none;
+    display:inline;
+    color:#eef1f1;
+    margin:20px;
+    float:right;
+}
+
+#topnav li:hover{
+    color:#cde9ad;
+    cursor: pointer;
+}
+
+#topnav a:hover{
+    color:#cde9ad;
+    cursor: pointer;
+
+}
+
 #top h1{
     color:#eef1f1;
     font-size:50px;
 }
+
+#drop-menu{
+    display:none;
+}
+
+#dodo{
+    height:25px;
+    width:25px;
+    float:right;
+    color:#eef1f1;
+    background:#eef1f1;
+    border-radius:10%;
+    display:none;
+
+}
+
+
 
 
 .containertop{
@@ -124,17 +161,17 @@ background:#66883f;;
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: black;
     opacity: 0.2; /* Firefox */
-    font-size:20px;
+    font-size:24px;
   }
   
   :-ms-input-placeholder { /* Internet Explorer 10-11 */
     color:black;
-    font-size:20px;
+    font-size:24px;
   }
   
   ::-ms-input-placeholder { /* Microsoft Edge */
     color: black;
-    font-size:20px;
+    font-size:24px;
   }
 
     @media only screen 
@@ -148,7 +185,7 @@ background:#66883f;;
       }
 
     body{
-        background-image:url("pback.jpg");
+        background-image:url("pback1.jpg");
         font-family: 'Coiny', cursive;
         background-size:500px 900px;
         background-repeat: no-repeat;
@@ -158,12 +195,40 @@ background:#66883f;;
         
         text-align: center;
         order:1px solid black;
+       
 
 
     }
     #top h1{
         font-size:35px;
+        margin-top:25px;
     }
+    
+#topnav{
+    display:none;
+}
+#topnav li{
+    list-style: none;
+    display:none;
+    color:#eef1f1;
+    margin:20px;
+    float:right;
+}
+
+.hambcontainer{
+    display:flex;
+    width:100%;
+    justify-content: center;
+}
+#dodo{
+    height:45px;
+    width:45px;
+    display:block;
+    background:none;
+
+
+}
+
 
     .containertop{
         brder:1px solid black;
