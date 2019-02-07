@@ -11,11 +11,18 @@ font-family: 'Forum', cursive;
 
 
 body{
- background-image:url("pback1.jpg");
- font-family: 'Coiny', cursive;
-
-background-repeat: no-repeat;
-background-size: 100%;
+ 
+    
+ 
+        font-family: 'Coiny', cursive;
+       
+       background-repeat: no-repeat;
+       background-size: 100%;
+       background-image:url("pback.jpg");
+       background-repeat:no-repeat;
+       
+       
+       
 }
 #top{
   brder: solid 1px black;
@@ -185,7 +192,7 @@ background:#66883f;;
       }
 
     body{
-        background-image:url("pback1.jpg");
+        background-image:url("pback.jpg");
         font-family: 'Coiny', cursive;
         background-size:500px 900px;
         background-repeat: no-repeat;
@@ -216,15 +223,16 @@ background:#66883f;;
 }
 
 .hambcontainer{
-    display:flex;
-    width:100%;
-    justify-content: center;
+
 }
 #dodo{
-    height:45px;
-    width:45px;
+    height:105px;
+    width:105px;
     display:block;
     background:none;
+    position:fixed;
+    bottom:580px;
+    left:305px;
 
 
 }
