@@ -18,14 +18,13 @@ body{
        
        background-repeat: no-repeat;
        background-size: 100%;
-       background-image:url("pback3.jpg");
+       background-image:url("pback.jpg");
        background-repeat:no-repeat;
        
        
        
 }
 #top{
-  brder: solid 1px black;
 width:100%;
 display:flex;
 justify-content: center;
@@ -33,48 +32,24 @@ align-items: center;
 margin-top:100px;
 }
 
-#topnav{
-    display:inline;
-}
-#topnav li{
-    list-style: none;
-    display:inline;
-    color:#eef1f1;
-    margin:20px;
-    float:right;
-}
 
-#topnav li:hover{
-    color:#cde9ad;
-    cursor: pointer;
-}
 
-#topnav a:hover{
-    color:#cde9ad;
-    cursor: pointer;
-
-}
 
 #top h1{
     color:#eef1f1;
     font-size:50px;
 }
 
-#drop-menu{
+
+#box{
+	
     display:none;
-}
-
-#dodo{
-    height:25px;
-    width:25px;
-    float:right;
-    color:#eef1f1;
-    background:#eef1f1;
-    border-radius:10%;
-    display:none;
-
-}
-
+	
+    }
+    
+    #burg{
+        display:none;
+    }
 
 
 
@@ -196,6 +171,7 @@ background:#66883f;;
         font-family: 'Coiny', cursive;
         background-size:500px 900px;
         background-repeat: no-repeat;
+        margin: 0;
     }
 
     #top{
@@ -210,32 +186,52 @@ background:#66883f;;
         font-size:35px;
         margin-top:25px;
     }
-    
-#topnav{
+
+
+#box{
+	height:100px;
+	width:100px;
+	background:#eef1f1;
     display:none;
-}
-#topnav li{
-    list-style: none;
-    display:none;
-    color:#eef1f1;
-    margin:20px;
+    boder:1px solid black;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
     float:right;
-}
+	
+    }
 
-.hambcontainer{
+    ul{
+        list-style: none;
+    }
 
-}
-#dodo{
-    height:105px;
-    width:105px;
-    display:block;
-    background:none;
-    position:fixed;
-    bottom:580px;
-    left:305px;
+    #box li{
+            margin-right:35px;
+            margin-bottom:10px;
+            margin-top:10px;
+        }
+
+    
+    
+    
+    #burg{
+        display:block;
+        height:85px;
+        width:85px;
+        position:fixed;
+        left:155px;
+        bottom:595px;
+    }
+
+ 
+
+    .mobilelink{
+        color:black;
+    
+        
+    }
 
 
-}
 
 
     .containertop{

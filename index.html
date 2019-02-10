@@ -13,25 +13,28 @@
     a{
         text-decoration: none;
         color:#eef1f1;
+        
     }
 
- 
- 
 
-</style>
-</head>
-<body>
-    <div class="hambcontainer">
-    <img id ="dodo" src="hamburger.png">
-               </div>
     
-            
+	
+</style>
+
+</head>
+<body> 
+
+        <img src ="hamburger.png" id="burg" onclick="hamb(),hamb2()">
+        <div id="box">
+      
+        <ul>
+                <li><a href="zonedescription.html" class ="mobilelink">Zones</a></li>
+        <li><a href="about.html" class ="mobilelink">About</a></li>
+        </ul>
+    </div>   
         
            
-    <ul id="topnav">
-        <li>About</li>
-        <li><a href="zonedescription.html">Zones</a></li>
-    </ul>
+
 <div id ="top">
     <h1>Florida Palm Tree Guide</h1>
 </div>
@@ -57,7 +60,24 @@
         
                 </div>
                 
-                
+                <script>
+                        function hamb(){
+                           var off=document.getElementById('box');
+                               if (off.style.display == "none") {
+                                   off.style.display = "flex";
+                               } else {
+                                   off.style.display = "none";
+                               } 
+                            }
+                               function hamb2(){
+                               var offburg=document.getElementById("burg");
+                               if (offburg.style.display == "block") {
+                                   offburg.style.display == "none";
+                               } else {
+                                   offburg.style.display == "block";
+                               } 
+                           }
+                           </script>            
  
         
 
