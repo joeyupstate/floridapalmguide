@@ -36,10 +36,10 @@ function navToggle() {
     	var i = 0;
     	for (i = 0; i < menu.length; i++){
 	menu[i].style.opacity="1.0";
+
 	menu[i].style.marginTop="0px";
 	};
     	document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
 	
 	}
-
-};
+	};

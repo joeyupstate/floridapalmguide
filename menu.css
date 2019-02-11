@@ -12,7 +12,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #000040;
+    background-color: #7ee608;
     box-shadow: 0 4px 4px -3px #232323;
     -moz-box-shadow: 0 4px 4px -3px #232323;
     -webkit-box-shadow: 0 4px 4px -3px #232323;
@@ -171,6 +171,11 @@ body {
   
   .menulist {
       width:200px;
+      border:1px solid black;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
   }
   
   
@@ -194,28 +199,27 @@ body {
   .line1.active {
     transform: rotate(270deg);
     opacity:0.0;
-    background-color:yellow;
+    background-color:#eef1f1;
     top:5px;
   }
   
   .line2.active {
     transform: rotate(45deg);
-    background-color:yellow;
+    background-color:#eef1f1;
   }
   
   .line3.active {
     transform: rotate(-45deg);
-    background-color:yellow;
+    background-color:#eef1f1;
     top:-7px;
   }
   
   .menuitems {
-      padding-top:12px;
-      padding-bottom:12px;
+    padding-top:12px;
+    padding-bottom:12px;
       text-decoration: none;
       list-style:none; 
-      font-family: "Lato", sans-serif;
-      font-weight: 300;
+      font-family: 'Coiny', cursive;
       font-size: 24px;
       display: inline-block;
       position:relative;	
