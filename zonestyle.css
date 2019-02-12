@@ -6,9 +6,12 @@
                 font-family:'Coiny', cursive;
                 background:#c3d0d1;
             }
+
+           
             p{
                 boder:1px solid black;
                 width:800px;
+                text-align: justify;
             }
                tr {
                    font-size:25px;
@@ -85,3 +88,99 @@
                 margin-top:100px;
                 
             }
+
+            @media only screen 
+            and (min-device-width: 375px) 
+            and (max-device-width: 667px) 
+            and (-webkit-min-device-pixel-ratio: 2) { 
+                body{
+                    dislay:flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    font-family:'Coiny', cursive;
+                    background:#c3d0d1;
+                }
+
+                h1{
+                    font-size:16px;
+                }
+                p{
+                    brder:1px solid black;
+                    width:300px;
+                    font-size:14px;
+                   text-align: justify;
+                }
+                   tr {
+                       font-size:10px;
+                       font-family:'Coiny', cursive;
+    
+                    }
+                #csquare1{
+                    height:40px;
+                    width:40px;
+                    background:rgb(211, 198, 181);
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right:10px;
+                    margin-left: 10px;
+                    border-radius:5%;
+                 }
+                #csquare2{
+                    height:40px;
+                    width:40px;
+                    background:rgb(211, 183, 146);
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right:10px;
+                    margin-left: 10px;
+                    border-radius:5%;
+    
+                }
+                #csquare3{
+                    height:40px;
+                    width:40px;
+                    background:rgb(209, 161, 97);
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right:10px;
+                    margin-left: 10px;
+                    border-radius:5%;
+    
+                }
+                #csquare4{
+                    height:40px;
+                    width:40px;
+                    background:rgb(216, 147, 56);
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right:10px;
+                    margin-left: 10px;
+                    border-radius:5%;
+    
+    
+                }
+                #csquare5{
+                    height:40px;
+                    width:40px;
+                    background:rgb(218, 126, 5);
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right:10px;
+                    margin-left: 10px;
+                    border-radius:5%;
+    
+                }
+    
+                table{
+                    brder:1px solid black;
+                    display:flex;
+                    justify-content: center;
+                    margin-top:20px;
+                    
+                }

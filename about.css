@@ -1,0 +1,97 @@
+body{
+ 
+    
+ 
+    font-family: 'Coiny', cursive;
+       
+       background-repeat: no-repeat;
+       background-size: 100%;
+       background-image:url("pback.jpg");
+       background-repeat:no-repeat;
+       display:flex;
+       flex-direction:column;
+       justify-content: center;
+       align-items: center;
+       
+       
+       
+    }
+    
+    h1{
+        color:#c3d0d1;
+        margin-top:80px;
+    }
+    #pcontainer{
+        width:820px;
+        height:470px;
+        background:#c3d0d1;
+        display:flex;
+        justify-content: center;
+        align-tems:center;
+        border-radius:10px;
+    }
+    
+    p{
+        color:black;
+    text-align:justify;
+        width:700px;
+        height:320px;
+        boder:1px black solid;
+        font-size:22px;
+    }
+    
+  
+  
+  
+  
+  
+  @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2) { 
+
+
+
+
+
+body{
+ 
+    
+ 
+font-family: 'Coiny', cursive;
+   
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-image:url("pback.jpg");
+   background-repeat:no-repeat;
+   display:flex;
+   flex-direction:column;
+   justify-content: center;
+   align-items: center;
+   
+   
+   
+}
+
+h1{
+    color:#c3d0d1;
+    margin-top:50px;
+}
+#pcontainer{
+    width:320px;
+    height:370px;
+    background:#c3d0d1;
+    display:flex;
+    justify-content: center;
+    align-tems:center;
+    border-radius:10px;
+}
+
+p{
+    color:black;
+text-align:justify;
+    width:270px;
+    height:320px;
+    boder:1px black solid;
+    font-size:12px;
+}
